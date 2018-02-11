@@ -25,6 +25,9 @@ class ChaserInvaderEnv(gym.Env):
         self.vel_i = 1.0
         self.min_action_vel = -1.0
         self.max_action_vel = 1.2
+        self.thresh_distance = 1.0 #difference between distances at which invader is caught
+        self.thresh_distance_gi = 0.25 #distance between invader and guard when invader is considered caught
+        self.thresh_distance_ib = 0.75 #distance between invader and base station when the invader has reached the base station
         #state: guard stats, invader stats, base station stats 
         self.low_state  = np.array([self.min_position, -self.vel_g, -self.phi_max, self.min_position, -self.vel_i, -self.phi_max, self.min_position, -self.vel_b, -self.phi_max])
         self.high_state = np.array([self.max_position, self.vel_g, self.phi_max,self.max_position, self.vel_i, self.phi_max, self.max_position, self.vel_b, -self.phi_max])
@@ -57,13 +60,21 @@ class ChaserInvaderEnv(gym.Env):
         done   = 0
         reward = 0.0
         info   = []
-        if d3 < d1:
+        if((d3-d1)>0 and (d3-d1)<thresh_distance):
             reward = 10.0
-            done   = bool(d3 < d1)
+            done   = True
             info   = ["invader caught"]
-        elif d3 > d1:
+        elif((d1-d3)>0 and (d1-d3)<thresh_distance):
             reward = -10.0
-            done   = bool(d3 > d1)
+            done   = True
+            info   = ["invader won"]
+        elif(d3<self.thresh_distance_gi):
+            reward = 10.0
+            done   = True
+            info   = ["invader caught"]
+        elif(d1<self.thresh_distance_ib):
+            reward = -10.0
+            done   = True
             info   = ["invader won"]
         else:
             if action_vel  > self.max_vel_g:
@@ -82,16 +93,24 @@ class ChaserInvaderEnv(gym.Env):
                 y = 0.0
             if y > self.max_position:
                 y = 30.0
-            #compute position of invader
-            #compute position of base station
+            #computing invader's position
+            x_i = self.state[3,0] - self.state[4]*self.state[5]
+            y_i = self.state[3,1] - self.state[4]*self.state[5]
+            if x_i < self.min_position:
+                x_i = 0.0
+            if x_i > self.max_position:
+                x_i = 30.0
+            if y_i < self.min_position:
+                y_i = 0.0
+            if y_i > self.max_position:
+                y_i = 30.0
+            #base station is stationary
             info = ["still working"]
-            self.state = np.array([[x,y], action_phi, action_vel, [20,10], 0, 1.0, [10,0],0,1.0]) #keep velocity of invader and base station constant
-
-            
+            self.state = np.array([[x,y], action_phi, action_vel, [x_i,y_i], self.state[4], self.state[5], [10,0],0,1.0]) #keep velocity of invader and base station constant
         return self.state, reward, done, info
 
     def reset(self):
-        self.state = np.array([[20,0], 0, 1.0, [20,10], 1.0, 1.0, [10,0],1.0,1.0]) #acc to constraint d3 <= d1
+        self.state = np.array([[20,0], 1.2, 0, [20,10], 1.0, float((math.pi)/4), [10,0],0.0,1.0]) #acc to constraint d3 <= d1
         #self.state = np.array([self.min_position, self.min_vel_g, -self.phi_max, self.min_position, self.min_vel_i, -self.phi_max, self.min_position, self.min_vel_b, -self.phi_max])
         return np.array(self.state)
 

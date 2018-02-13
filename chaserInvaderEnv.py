@@ -29,10 +29,10 @@ class ChaserInvaderEnv(gym.Env):
         self.thresh_distance_gi = 0.25 #distance between invader and guard when invader is considered caught
         self.thresh_distance_ib = 0.75 #distance between invader and base station when the invader has reached the base station
         #state: guard stats, invader stats, base station stats 
-        self.low_state  = np.array([self.min_position, -self.vel_g, -self.phi_max, self.min_position, -self.vel_i, -self.phi_max, self.min_position, -self.vel_b, -self.phi_max])
-        self.high_state = np.array([self.max_position, self.vel_g, self.phi_max,self.max_position, self.vel_i, self.phi_max, self.max_position, self.vel_b, -self.phi_max])
+        self.low_state  = np.array([self.min_position,self.min_position, -self.vel_g, -self.phi_max,self.min_position,self.min_position, -self.vel_i, -self.phi_max,self.min_position,self.min_position, -self.vel_b, -self.phi_max])
+        self.high_state = np.array([self.max_position,self.max_position,self.vel_g, self.phi_max,self.max_position,self.max_position,self.vel_i, self.phi_max,self.max_position,self.max_position,self.vel_b, -self.phi_max])
         self.observation_space = spaces.Box(low=self.low_state, high=self.high_state)
-        self.action_space      = spaces.Box(np.array([self.min_vel_g,-self.phi_max]), np.array([self.max_vel_g,+self.phi_max]))  # speed, angle
+        self.action_space      = spaces.Box(np.array([self.min_action_vel,-self.phi_max]), np.array([self.vel_g,+self.phi_max]))  # speed, angle
         self.seed()
         self.reset()
 
@@ -42,17 +42,18 @@ class ChaserInvaderEnv(gym.Env):
 
     def step(self, action):
 
-        position_g = self.state[0]  #guard
-        velocity_g = self.state[1]
-        phi_g      = self.state[2]
-        position_i = self.state[3]  #invader
-        velocity_i = self.state[4]
-        phi_i      = self,state[5]
-        position_b = self.state[6]  #base station
-        velocity_b = self.state[7]
-        phi_b      = self.state[8]
-        action_vel = action[0]      #velocity from action
-        action_phi = action[1]      #phi from action
+        position_g = [self.state[0],self.state[1]]  #guard
+        velocity_g = self.state[2]
+        phi_g      = self.state[3]
+        position_i = [self.state[4],self.state[5]]  #invader
+        velocity_i = self.state[6]
+        phi_i      = self.state[7]
+        position_b = [self.state[8],self.state[9]]  #base station
+        velocity_b = self.state[10]
+        phi_b      = self.state[11]
+        print (action)
+        action_vel = action      #velocity from action
+        action_phi = action      #phi from action
 
         d3 = math.sqrt((position_g[1]-position_i[1])**2+(position_g[0]-position_i[0])**2) #d3 = position_g - position_i
         d1 = math.sqrt((position_b[1]-position_i[1])**2+(position_b[0]-position_i[0])**2) #d1 = position_b - position_i
@@ -60,11 +61,11 @@ class ChaserInvaderEnv(gym.Env):
         done   = 0
         reward = 0.0
         info   = []
-        if((d3-d1)>0 and (d3-d1)<thresh_distance):
+        if((d3-d1)>0 and (d3-d1)<self.thresh_distance):
             reward = 10.0
             done   = True
             info   = ["invader caught"]
-        elif((d1-d3)>0 and (d1-d3)<thresh_distance):
+        elif((d1-d3)>0 and (d1-d3)<self.thresh_distance):
             reward = -10.0
             done   = True
             info   = ["invader won"]
@@ -77,10 +78,10 @@ class ChaserInvaderEnv(gym.Env):
             done   = True
             info   = ["invader won"]
         else:
-            if action_vel  > self.max_vel_g:
-                action_vel = self.max_vel_g
-            if action_vel  < self.min_vel_g:
-                action_vel = self.min_vel_g
+            if action_vel  > self.max_action_vel:
+                action_vel = self.max_action_vel
+            if action_vel  < self.min_action_vel:
+                action_vel = self.min_action_vel
             #compute position of guard
             theta = (action_vel/self.L)*math.tan(action_phi)
             x = position_g[0] + action_vel*math.cos(theta)
@@ -94,8 +95,8 @@ class ChaserInvaderEnv(gym.Env):
             if y > self.max_position:
                 y = 30.0
             #computing invader's position
-            x_i = self.state[3,0] - self.state[4]*self.state[5]
-            y_i = self.state[3,1] - self.state[4]*self.state[5]
+            x_i = self.state[3] - self.state[5]*self.state[6]
+            y_i = self.state[4] - self.state[5]*self.state[6]
             if x_i < self.min_position:
                 x_i = 0.0
             if x_i > self.max_position:
@@ -106,21 +107,14 @@ class ChaserInvaderEnv(gym.Env):
                 y_i = 30.0
             #base station is stationary
             info = ["still working"]
-            self.state = np.array([[x,y], action_phi, action_vel, [x_i,y_i], self.state[4], self.state[5], [10,0],0,1.0]) #keep velocity of invader and base station constant
+            self.state = np.array([x,y, action_phi, action_vel, x_i,y_i, self.state[4], self.state[5], 10,0,0,1.0]) #keep velocity of invader and base station constant
         return self.state, reward, done, info
 
     def reset(self):
-        self.state = np.array([[20,0], 1.2, 0, [20,10], 1.0, float((math.pi)/4), [10,0],0.0,1.0]) #acc to constraint d3 <= d1
+        self.state = np.array([20,0, 1.2, 0, 20,10, 1.0, float((math.pi)/4), 10,0,0.0,1.0]) #acc to constraint d3 <= d1
         #self.state = np.array([self.min_position, self.min_vel_g, -self.phi_max, self.min_position, self.min_vel_i, -self.phi_max, self.min_position, self.min_vel_b, -self.phi_max])
         return np.array(self.state)
-
-#    def get_state(self):
-#        return self.state
-    '''
-    def _height(self, xs):
-        return np.sin(3 * xs)*.45+.55
-
-    def render(self, mode='human'):
+    '''def render(self, mode='human'):
         screen_width = 600
         screen_height = 400
 
@@ -175,6 +169,5 @@ class ChaserInvaderEnv(gym.Env):
         return self.viewer.render(return_rgb_array = mode=='rgb_array')
 
     def close(self):
-        if self.viewer: self.viewer.close()
+        if self.viewer: self.viewer.close()'''
 
-    '''

@@ -1,0 +1,1036 @@
+2018-02-25 16:48:12.357170 UTC | [experiment_2018_02_25_16_48_09_0001] Populating workers...
+2018-02-25 16:48:14.603041 UTC | [experiment_2018_02_25_16_48_09_0001] Populated
+2018-02-25 16:48:17.215712 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #0 | Training started
+2018-02-25 16:48:17.442303 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #0 | Training finished
+2018-02-25 16:48:17.442544 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #1 | Training started
+2018-02-25 16:48:17.665725 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #1 | Training finished
+2018-02-25 16:48:17.666086 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #2 | Training started
+2018-02-25 16:48:17.895459 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #2 | Training finished
+2018-02-25 16:48:17.895681 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #3 | Training started
+2018-02-25 16:48:18.115902 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #3 | Training finished
+2018-02-25 16:48:18.116150 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #4 | Training started
+2018-02-25 16:48:18.345130 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #4 | Training finished
+2018-02-25 16:48:18.345357 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #5 | Training started
+2018-02-25 16:48:18.574674 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #5 | Training finished
+2018-02-25 16:48:18.574918 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #6 | Training started
+2018-02-25 16:48:18.798963 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #6 | Training finished
+2018-02-25 16:48:18.799187 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #7 | Training started
+2018-02-25 16:48:19.024526 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #7 | Training finished
+2018-02-25 16:48:19.027205 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #8 | Training started
+2018-02-25 16:48:19.254281 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #8 | Training finished
+2018-02-25 16:48:19.254509 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #9 | Training started
+2018-02-25 16:48:19.533934 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #9 | Training finished
+2018-02-25 16:48:19.534146 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #9 | Collecting samples for evaluation
+2018-02-25 16:48:22.448528 UTC | -----------------------  -----------
+2018-02-25 16:48:22.448837 UTC | Epoch                      9
+2018-02-25 16:48:22.448964 UTC | AverageReturn            -10
+2018-02-25 16:48:22.449045 UTC | StdReturn                  0
+2018-02-25 16:48:22.449166 UTC | MaxReturn                -10
+2018-02-25 16:48:22.449253 UTC | MinReturn                -10
+2018-02-25 16:48:22.449337 UTC | AverageEsReturn           -6.87894
+2018-02-25 16:48:22.449416 UTC | StdEsReturn                7.25812
+2018-02-25 16:48:22.449492 UTC | MaxEsReturn               10
+2018-02-25 16:48:22.449574 UTC | MinEsReturn              -10
+2018-02-25 16:48:22.449653 UTC | AverageDiscountedReturn   -9.4148
+2018-02-25 16:48:22.449743 UTC | AverageQLoss               0.100415
+2018-02-25 16:48:22.449829 UTC | AveragePolicySurr          0.119132
+2018-02-25 16:48:22.449938 UTC | AverageQ                  -0.0429484
+2018-02-25 16:48:22.450033 UTC | AverageAbsQ                0.0429484
+2018-02-25 16:48:22.450120 UTC | AverageY                  -0.146714
+2018-02-25 16:48:22.450213 UTC | AverageAbsY                0.146714
+2018-02-25 16:48:22.450298 UTC | AverageAbsQYDiff           0.1061
+2018-02-25 16:48:22.450387 UTC | AverageAction              0.0808823
+2018-02-25 16:48:22.450466 UTC | PolicyRegParamNorm        26.4462
+2018-02-25 16:48:22.450541 UTC | QFunRegParamNorm           8.01517
+2018-02-25 16:48:22.450619 UTC | AverageForwardProgress     0
+2018-02-25 16:48:22.450701 UTC | MaxForwardProgress         0
+2018-02-25 16:48:22.450782 UTC | MinForwardProgress         0
+2018-02-25 16:48:22.450861 UTC | StdForwardProgress         0
+2018-02-25 16:48:22.450967 UTC | -----------------------  -----------
+2018-02-25 16:48:22.451393 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #10 | Training started
+2018-02-25 16:48:59.274450 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #10 | Training finished
+2018-02-25 16:48:59.274702 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #10 | Collecting samples for evaluation
+2018-02-25 16:49:02.386801 UTC | -----------------------  -----------
+2018-02-25 16:49:02.387106 UTC | Epoch                     10
+2018-02-25 16:49:02.387210 UTC | AverageReturn            -10
+2018-02-25 16:49:02.387298 UTC | StdReturn                  0
+2018-02-25 16:49:02.387377 UTC | MaxReturn                -10
+2018-02-25 16:49:02.387453 UTC | MinReturn                -10
+2018-02-25 16:49:02.387528 UTC | AverageEsReturn           -5.22222
+2018-02-25 16:49:02.387603 UTC | StdEsReturn                8.52809
+2018-02-25 16:49:02.387682 UTC | MaxEsReturn               10
+2018-02-25 16:49:02.387758 UTC | MinEsReturn              -10
+2018-02-25 16:49:02.387827 UTC | AverageDiscountedReturn   -9.60596
+2018-02-25 16:49:02.387941 UTC | AverageQLoss               0.0941434
+2018-02-25 16:49:02.388037 UTC | AveragePolicySurr          0.135616
+2018-02-25 16:49:02.388117 UTC | AverageQ                  -0.153146
+2018-02-25 16:49:02.388197 UTC | AverageAbsQ                0.157223
+2018-02-25 16:49:02.388276 UTC | AverageY                  -0.153582
+2018-02-25 16:49:02.388354 UTC | AverageAbsY                0.199925
+2018-02-25 16:49:02.388443 UTC | AverageAbsQYDiff           0.153067
+2018-02-25 16:49:02.388534 UTC | AverageAction              0.999121
+2018-02-25 16:49:02.388613 UTC | PolicyRegParamNorm        26.4557
+2018-02-25 16:49:02.388691 UTC | QFunRegParamNorm           8.4106
+2018-02-25 16:49:02.388769 UTC | AverageForwardProgress     0
+2018-02-25 16:49:02.388874 UTC | MaxForwardProgress         0
+2018-02-25 16:49:02.388996 UTC | MinForwardProgress         0
+2018-02-25 16:49:02.389112 UTC | StdForwardProgress         0
+2018-02-25 16:49:02.389225 UTC | -----------------------  -----------
+2018-02-25 16:49:02.389592 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #11 | Training started
+2018-02-25 16:49:39.632524 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #11 | Training finished
+2018-02-25 16:49:39.632754 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #11 | Collecting samples for evaluation
+2018-02-25 16:49:42.711108 UTC | -----------------------  -----------
+2018-02-25 16:49:42.711391 UTC | Epoch                     11
+2018-02-25 16:49:42.711498 UTC | AverageReturn            -10
+2018-02-25 16:49:42.711577 UTC | StdReturn                  0
+2018-02-25 16:49:42.711661 UTC | MaxReturn                -10
+2018-02-25 16:49:42.712199 UTC | MinReturn                -10
+2018-02-25 16:49:42.712295 UTC | AverageEsReturn           -2.7381
+2018-02-25 16:49:42.712386 UTC | StdEsReturn                9.61784
+2018-02-25 16:49:42.712469 UTC | MaxEsReturn               10
+2018-02-25 16:49:42.712601 UTC | MinEsReturn              -10
+2018-02-25 16:49:42.712694 UTC | AverageDiscountedReturn   -9.5099
+2018-02-25 16:49:42.712774 UTC | AverageQLoss               0.0725948
+2018-02-25 16:49:42.713132 UTC | AveragePolicySurr          0.223121
+2018-02-25 16:49:42.713277 UTC | AverageQ                  -0.234253
+2018-02-25 16:49:42.713384 UTC | AverageAbsQ                0.238057
+2018-02-25 16:49:42.713485 UTC | AverageY                  -0.234507
+2018-02-25 16:49:42.713950 UTC | AverageAbsY                0.285932
+2018-02-25 16:49:42.714056 UTC | AverageAbsQYDiff           0.114377
+2018-02-25 16:49:42.714132 UTC | AverageAction              1
+2018-02-25 16:49:42.714676 UTC | PolicyRegParamNorm        26.4737
+2018-02-25 16:49:42.715080 UTC | QFunRegParamNorm           8.78089
+2018-02-25 16:49:42.715469 UTC | AverageForwardProgress     0
+2018-02-25 16:49:42.715878 UTC | MaxForwardProgress         0
+2018-02-25 16:49:42.716289 UTC | MinForwardProgress         0
+2018-02-25 16:49:42.716693 UTC | StdForwardProgress         0
+2018-02-25 16:49:42.717105 UTC | -----------------------  -----------
+2018-02-25 16:49:42.717869 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #12 | Training started
+2018-02-25 16:50:19.652595 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #12 | Training finished
+2018-02-25 16:50:19.652827 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #12 | Collecting samples for evaluation
+2018-02-25 16:50:22.696035 UTC | -----------------------  -----------
+2018-02-25 16:50:22.696323 UTC | Epoch                     12
+2018-02-25 16:50:22.696432 UTC | AverageReturn            -10
+2018-02-25 16:50:22.696512 UTC | StdReturn                  0
+2018-02-25 16:50:22.696605 UTC | MaxReturn                -10
+2018-02-25 16:50:22.696683 UTC | MinReturn                -10
+2018-02-25 16:50:22.696757 UTC | AverageEsReturn           -2.02454
+2018-02-25 16:50:22.696845 UTC | StdEsReturn                9.79292
+2018-02-25 16:50:22.696939 UTC | MaxEsReturn               10
+2018-02-25 16:50:22.697021 UTC | MinEsReturn              -10
+2018-02-25 16:50:22.697139 UTC | AverageDiscountedReturn   -9.5099
+2018-02-25 16:50:22.697228 UTC | AverageQLoss               0.0680497
+2018-02-25 16:50:22.697314 UTC | AveragePolicySurr          0.317615
+2018-02-25 16:50:22.697401 UTC | AverageQ                  -0.319853
+2018-02-25 16:50:22.697490 UTC | AverageAbsQ                0.329965
+2018-02-25 16:50:22.697574 UTC | AverageY                  -0.319787
+2018-02-25 16:50:22.697649 UTC | AverageAbsY                0.380747
+2018-02-25 16:50:22.697723 UTC | AverageAbsQYDiff           0.117451
+2018-02-25 16:50:22.697809 UTC | AverageAction              1
+2018-02-25 16:50:22.697916 UTC | PolicyRegParamNorm        26.4737
+2018-02-25 16:50:22.698006 UTC | QFunRegParamNorm           9.1611
+2018-02-25 16:50:22.698093 UTC | AverageForwardProgress     0
+2018-02-25 16:50:22.698173 UTC | MaxForwardProgress         0
+2018-02-25 16:50:22.698250 UTC | MinForwardProgress         0
+2018-02-25 16:50:22.698327 UTC | StdForwardProgress         0
+2018-02-25 16:50:22.698408 UTC | -----------------------  -----------
+2018-02-25 16:50:22.698761 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #13 | Training started
+2018-02-25 16:50:59.939967 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #13 | Training finished
+2018-02-25 16:50:59.940194 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #13 | Collecting samples for evaluation
+2018-02-25 16:51:02.998174 UTC | -----------------------  -----------
+2018-02-25 16:51:02.998456 UTC | Epoch                     13
+2018-02-25 16:51:02.998557 UTC | AverageReturn            -10
+2018-02-25 16:51:02.998645 UTC | StdReturn                  0
+2018-02-25 16:51:02.998721 UTC | MaxReturn                -10
+2018-02-25 16:51:02.998794 UTC | MinReturn                -10
+2018-02-25 16:51:02.998893 UTC | AverageEsReturn           -2.40964
+2018-02-25 16:51:02.998972 UTC | StdEsReturn                9.70534
+2018-02-25 16:51:02.999043 UTC | MaxEsReturn               10
+2018-02-25 16:51:02.999118 UTC | MinEsReturn              -10
+2018-02-25 16:51:02.999193 UTC | AverageDiscountedReturn   -9.5099
+2018-02-25 16:51:02.999267 UTC | AverageQLoss               0.0655619
+2018-02-25 16:51:02.999355 UTC | AveragePolicySurr          0.344743
+2018-02-25 16:51:02.999475 UTC | AverageQ                  -0.358328
+2018-02-25 16:51:02.999561 UTC | AverageAbsQ                0.381014
+2018-02-25 16:51:02.999663 UTC | AverageY                  -0.358526
+2018-02-25 16:51:02.999795 UTC | AverageAbsY                0.432851
+2018-02-25 16:51:02.999911 UTC | AverageAbsQYDiff           0.118866
+2018-02-25 16:51:03.000003 UTC | AverageAction              1
+2018-02-25 16:51:03.000095 UTC | PolicyRegParamNorm        26.4737
+2018-02-25 16:51:03.000188 UTC | QFunRegParamNorm           9.5446
+2018-02-25 16:51:03.000292 UTC | AverageForwardProgress     0
+2018-02-25 16:51:03.000418 UTC | MaxForwardProgress         0
+2018-02-25 16:51:03.000511 UTC | MinForwardProgress         0
+2018-02-25 16:51:03.000616 UTC | StdForwardProgress         0
+2018-02-25 16:51:03.000725 UTC | -----------------------  -----------
+2018-02-25 16:51:03.001112 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #14 | Training started
+2018-02-25 16:51:39.939529 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #14 | Training finished
+2018-02-25 16:51:39.939762 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #14 | Collecting samples for evaluation
+2018-02-25 16:51:43.022870 UTC | -----------------------  -----------
+2018-02-25 16:51:43.023155 UTC | Epoch                     14
+2018-02-25 16:51:43.023260 UTC | AverageReturn            -10
+2018-02-25 16:51:43.023361 UTC | StdReturn                  0
+2018-02-25 16:51:43.023447 UTC | MaxReturn                -10
+2018-02-25 16:51:43.023521 UTC | MinReturn                -10
+2018-02-25 16:51:43.023598 UTC | AverageEsReturn           -1.95266
+2018-02-25 16:51:43.023675 UTC | StdEsReturn                9.8075
+2018-02-25 16:51:43.023747 UTC | MaxEsReturn               10
+2018-02-25 16:51:43.023820 UTC | MinEsReturn              -10
+2018-02-25 16:51:43.023894 UTC | AverageDiscountedReturn   -9.5099
+2018-02-25 16:51:43.023970 UTC | AverageQLoss               0.0704898
+2018-02-25 16:51:43.024046 UTC | AveragePolicySurr          0.310907
+2018-02-25 16:51:43.024129 UTC | AverageQ                  -0.350017
+2018-02-25 16:51:43.024209 UTC | AverageAbsQ                0.387679
+2018-02-25 16:51:43.024288 UTC | AverageY                  -0.350027
+2018-02-25 16:51:43.024384 UTC | AverageAbsY                0.44891
+2018-02-25 16:51:43.024472 UTC | AverageAbsQYDiff           0.126887
+2018-02-25 16:51:43.024566 UTC | AverageAction              1
+2018-02-25 16:51:43.024648 UTC | PolicyRegParamNorm        26.4736
+2018-02-25 16:51:43.024732 UTC | QFunRegParamNorm           9.89115
+2018-02-25 16:51:43.024821 UTC | AverageForwardProgress     0
+2018-02-25 16:51:43.024908 UTC | MaxForwardProgress         0
+2018-02-25 16:51:43.024991 UTC | MinForwardProgress         0
+2018-02-25 16:51:43.025071 UTC | StdForwardProgress         0
+2018-02-25 16:51:43.025185 UTC | -----------------------  -----------
+2018-02-25 16:51:43.025517 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #15 | Training started
+2018-02-25 16:52:19.904479 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #15 | Training finished
+2018-02-25 16:52:19.904714 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #15 | Collecting samples for evaluation
+2018-02-25 16:52:22.943610 UTC | -----------------------  -----------
+2018-02-25 16:52:22.943897 UTC | Epoch                     15
+2018-02-25 16:52:22.944007 UTC | AverageReturn            -10
+2018-02-25 16:52:22.944095 UTC | StdReturn                  0
+2018-02-25 16:52:22.944173 UTC | MaxReturn                -10
+2018-02-25 16:52:22.944248 UTC | MinReturn                -10
+2018-02-25 16:52:22.944325 UTC | AverageEsReturn           -2.09581
+2018-02-25 16:52:22.944406 UTC | StdEsReturn                9.77791
+2018-02-25 16:52:22.944477 UTC | MaxEsReturn               10
+2018-02-25 16:52:22.944550 UTC | MinEsReturn              -10
+2018-02-25 16:52:22.944626 UTC | AverageDiscountedReturn   -9.5099
+2018-02-25 16:52:22.944701 UTC | AverageQLoss               0.0710731
+2018-02-25 16:52:22.944777 UTC | AveragePolicySurr          0.265171
+2018-02-25 16:52:22.944880 UTC | AverageQ                  -0.323934
+2018-02-25 16:52:22.944969 UTC | AverageAbsQ                0.370552
+2018-02-25 16:52:22.945047 UTC | AverageY                  -0.324441
+2018-02-25 16:52:22.945154 UTC | AverageAbsY                0.436706
+2018-02-25 16:52:22.945235 UTC | AverageAbsQYDiff           0.130188
+2018-02-25 16:52:22.945314 UTC | AverageAction              1
+2018-02-25 16:52:22.945393 UTC | PolicyRegParamNorm        26.4735
+2018-02-25 16:52:22.945476 UTC | QFunRegParamNorm          10.2838
+2018-02-25 16:52:22.945564 UTC | AverageForwardProgress     0
+2018-02-25 16:52:22.945651 UTC | MaxForwardProgress         0
+2018-02-25 16:52:22.945739 UTC | MinForwardProgress         0
+2018-02-25 16:52:22.945838 UTC | StdForwardProgress         0
+2018-02-25 16:52:22.945928 UTC | -----------------------  -----------
+2018-02-25 16:52:22.946243 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #16 | Training started
+2018-02-25 16:53:00.152808 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #16 | Training finished
+2018-02-25 16:53:00.153049 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #16 | Collecting samples for evaluation
+2018-02-25 16:53:03.221796 UTC | -----------------------  ----------
+2018-02-25 16:53:03.222090 UTC | Epoch                     16
+2018-02-25 16:53:03.222191 UTC | AverageReturn            -10
+2018-02-25 16:53:03.222636 UTC | StdReturn                  0
+2018-02-25 16:53:03.222750 UTC | MaxReturn                -10
+2018-02-25 16:53:03.222846 UTC | MinReturn                -10
+2018-02-25 16:53:03.222945 UTC | AverageEsReturn           -2.7381
+2018-02-25 16:53:03.223028 UTC | StdEsReturn                9.61784
+2018-02-25 16:53:03.223377 UTC | MaxEsReturn               10
+2018-02-25 16:53:03.223505 UTC | MinEsReturn              -10
+2018-02-25 16:53:03.223609 UTC | AverageDiscountedReturn   -9.5099
+2018-02-25 16:53:03.223878 UTC | AverageQLoss               0.074287
+2018-02-25 16:53:03.223998 UTC | AveragePolicySurr          0.227528
+2018-02-25 16:53:03.224091 UTC | AverageQ                  -0.290538
+2018-02-25 16:53:03.224338 UTC | AverageAbsQ                0.352182
+2018-02-25 16:53:03.224457 UTC | AverageY                  -0.290752
+2018-02-25 16:53:03.224556 UTC | AverageAbsY                0.420859
+2018-02-25 16:53:03.224676 UTC | AverageAbsQYDiff           0.138307
+2018-02-25 16:53:03.224787 UTC | AverageAction              1
+2018-02-25 16:53:03.224933 UTC | PolicyRegParamNorm        26.473
+2018-02-25 16:53:03.225036 UTC | QFunRegParamNorm          10.6539
+2018-02-25 16:53:03.225164 UTC | AverageForwardProgress     0
+2018-02-25 16:53:03.225270 UTC | MaxForwardProgress         0
+2018-02-25 16:53:03.225934 UTC | MinForwardProgress         0
+2018-02-25 16:53:03.226057 UTC | StdForwardProgress         0
+2018-02-25 16:53:03.226157 UTC | -----------------------  ----------
+2018-02-25 16:53:03.226493 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #17 | Training started
+2018-02-25 16:53:41.494219 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #17 | Training finished
+2018-02-25 16:53:41.494442 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #17 | Collecting samples for evaluation
+2018-02-25 16:53:44.580887 UTC | -----------------------  -----------
+2018-02-25 16:53:44.581192 UTC | Epoch                     17
+2018-02-25 16:53:44.581297 UTC | AverageReturn            -10
+2018-02-25 16:53:44.581402 UTC | StdReturn                  0
+2018-02-25 16:53:44.581479 UTC | MaxReturn                -10
+2018-02-25 16:53:44.581556 UTC | MinReturn                -10
+2018-02-25 16:53:44.581634 UTC | AverageEsReturn           -2.85714
+2018-02-25 16:53:44.581705 UTC | StdEsReturn                9.58315
+2018-02-25 16:53:44.581779 UTC | MaxEsReturn               10
+2018-02-25 16:53:44.581855 UTC | MinEsReturn              -10
+2018-02-25 16:53:44.581935 UTC | AverageDiscountedReturn   -9.5099
+2018-02-25 16:53:44.582008 UTC | AverageQLoss               0.0786549
+2018-02-25 16:53:44.582082 UTC | AveragePolicySurr          0.205599
+2018-02-25 16:53:44.582165 UTC | AverageQ                  -0.270148
+2018-02-25 16:53:44.582246 UTC | AverageAbsQ                0.337136
+2018-02-25 16:53:44.582324 UTC | AverageY                  -0.270658
+2018-02-25 16:53:44.582430 UTC | AverageAbsY                0.410863
+2018-02-25 16:53:44.582510 UTC | AverageAbsQYDiff           0.143433
+2018-02-25 16:53:44.582591 UTC | AverageAction              1
+2018-02-25 16:53:44.582670 UTC | PolicyRegParamNorm        26.4721
+2018-02-25 16:53:44.582747 UTC | QFunRegParamNorm          10.9857
+2018-02-25 16:53:44.582830 UTC | AverageForwardProgress     0
+2018-02-25 16:53:44.582917 UTC | MaxForwardProgress         0
+2018-02-25 16:53:44.583003 UTC | MinForwardProgress         0
+2018-02-25 16:53:44.583085 UTC | StdForwardProgress         0
+2018-02-25 16:53:44.583163 UTC | -----------------------  -----------
+2018-02-25 16:53:44.583491 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #18 | Training started
+2018-02-25 16:54:23.005466 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #18 | Training finished
+2018-02-25 16:54:23.005647 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #18 | Collecting samples for evaluation
+2018-02-25 16:54:25.627855 UTC | -----------------------  -----------
+2018-02-25 16:54:25.628142 UTC | Epoch                     18
+2018-02-25 16:54:25.628247 UTC | AverageReturn            -10
+2018-02-25 16:54:25.628669 UTC | StdReturn                  0
+2018-02-25 16:54:25.628798 UTC | MaxReturn                -10
+2018-02-25 16:54:25.628902 UTC | MinReturn                -10
+2018-02-25 16:54:25.628986 UTC | AverageEsReturn           -3.53293
+2018-02-25 16:54:25.629071 UTC | StdEsReturn                9.35513
+2018-02-25 16:54:25.629195 UTC | MaxEsReturn               10
+2018-02-25 16:54:25.629565 UTC | MinEsReturn              -10
+2018-02-25 16:54:25.629957 UTC | AverageDiscountedReturn   -9.5099
+2018-02-25 16:54:25.630339 UTC | AverageQLoss               0.0819307
+2018-02-25 16:54:25.630588 UTC | AveragePolicySurr          0.200984
+2018-02-25 16:54:25.631116 UTC | AverageQ                  -0.259039
+2018-02-25 16:54:25.631233 UTC | AverageAbsQ                0.331152
+2018-02-25 16:54:25.631330 UTC | AverageY                  -0.259668
+2018-02-25 16:54:25.631425 UTC | AverageAbsY                0.405899
+2018-02-25 16:54:25.631867 UTC | AverageAbsQYDiff           0.148789
+2018-02-25 16:54:25.632304 UTC | AverageAction              1
+2018-02-25 16:54:25.632649 UTC | PolicyRegParamNorm        26.4693
+2018-02-25 16:54:25.632996 UTC | QFunRegParamNorm          11.3124
+2018-02-25 16:54:25.633349 UTC | AverageForwardProgress     0
+2018-02-25 16:54:25.633679 UTC | MaxForwardProgress         0
+2018-02-25 16:54:25.635404 UTC | MinForwardProgress         0
+2018-02-25 16:54:25.635689 UTC | StdForwardProgress         0
+2018-02-25 16:54:25.635808 UTC | -----------------------  -----------
+2018-02-25 16:54:25.636477 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #19 | Training started
+2018-02-25 16:55:03.708107 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #19 | Training finished
+2018-02-25 16:55:03.708333 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #19 | Collecting samples for evaluation
+2018-02-25 16:55:07.079150 UTC | -----------------------  -----------
+2018-02-25 16:55:07.079455 UTC | Epoch                     19
+2018-02-25 16:55:07.079563 UTC | AverageReturn            -10
+2018-02-25 16:55:07.079652 UTC | StdReturn                  0
+2018-02-25 16:55:07.079729 UTC | MaxReturn                -10
+2018-02-25 16:55:07.079806 UTC | MinReturn                -10
+2018-02-25 16:55:07.079885 UTC | AverageEsReturn           -3.78049
+2018-02-25 16:55:07.079966 UTC | StdEsReturn                9.25786
+2018-02-25 16:55:07.080040 UTC | MaxEsReturn               10
+2018-02-25 16:55:07.080112 UTC | MinEsReturn              -10
+2018-02-25 16:55:07.080183 UTC | AverageDiscountedReturn   -9.60596
+2018-02-25 16:55:07.080257 UTC | AverageQLoss               0.0806404
+2018-02-25 16:55:07.080332 UTC | AveragePolicySurr          0.123494
+2018-02-25 16:55:07.080435 UTC | AverageQ                  -0.256502
+2018-02-25 16:55:07.080517 UTC | AverageAbsQ                0.337527
+2018-02-25 16:55:07.080597 UTC | AverageY                  -0.256759
+2018-02-25 16:55:07.080676 UTC | AverageAbsY                0.410454
+2018-02-25 16:55:07.080753 UTC | AverageAbsQYDiff           0.149865
+2018-02-25 16:55:07.080830 UTC | AverageAction              0.86326
+2018-02-25 16:55:07.080910 UTC | PolicyRegParamNorm        26.7067
+2018-02-25 16:55:07.080989 UTC | QFunRegParamNorm          11.6228
+2018-02-25 16:55:07.081104 UTC | AverageForwardProgress     0
+2018-02-25 16:55:07.081223 UTC | MaxForwardProgress         0
+2018-02-25 16:55:07.081321 UTC | MinForwardProgress         0
+2018-02-25 16:55:07.081443 UTC | StdForwardProgress         0
+2018-02-25 16:55:07.081530 UTC | -----------------------  -----------
+2018-02-25 16:55:07.081862 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #20 | Training started
+2018-02-25 16:55:45.245331 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #20 | Training finished
+2018-02-25 16:55:45.245556 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #20 | Collecting samples for evaluation
+2018-02-25 16:55:47.602271 UTC | -----------------------  -----------
+2018-02-25 16:55:47.602566 UTC | Epoch                     20
+2018-02-25 16:55:47.602678 UTC | AverageReturn            -10
+2018-02-25 16:55:47.602769 UTC | StdReturn                  0
+2018-02-25 16:55:47.602846 UTC | MaxReturn                -10
+2018-02-25 16:55:47.602947 UTC | MinReturn                -10
+2018-02-25 16:55:47.603030 UTC | AverageEsReturn           -2.63158
+2018-02-25 16:55:47.603112 UTC | StdEsReturn                9.64753
+2018-02-25 16:55:47.603224 UTC | MaxEsReturn               10
+2018-02-25 16:55:47.603338 UTC | MinEsReturn              -10
+2018-02-25 16:55:47.603440 UTC | AverageDiscountedReturn   -8.68746
+2018-02-25 16:55:47.603528 UTC | AverageQLoss               0.0962453
+2018-02-25 16:55:47.603611 UTC | AveragePolicySurr          0.0366866
+2018-02-25 16:55:47.603695 UTC | AverageQ                  -0.2204
+2018-02-25 16:55:47.603805 UTC | AverageAbsQ                0.35374
+2018-02-25 16:55:47.604052 UTC | AverageY                  -0.220384
+2018-02-25 16:55:47.604164 UTC | AverageAbsY                0.433352
+2018-02-25 16:55:47.604296 UTC | AverageAbsQYDiff           0.163517
+2018-02-25 16:55:47.604410 UTC | AverageAction              0.938398
+2018-02-25 16:55:47.604514 UTC | PolicyRegParamNorm        26.8451
+2018-02-25 16:55:47.604673 UTC | QFunRegParamNorm          11.7912
+2018-02-25 16:55:47.604804 UTC | AverageForwardProgress     0
+2018-02-25 16:55:47.604945 UTC | MaxForwardProgress         0
+2018-02-25 16:55:47.605045 UTC | MinForwardProgress         0
+2018-02-25 16:55:47.605169 UTC | StdForwardProgress         0
+2018-02-25 16:55:47.605263 UTC | -----------------------  -----------
+2018-02-25 16:55:47.605723 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #21 | Training started
+2018-02-25 16:56:25.706512 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #21 | Training finished
+2018-02-25 16:56:25.706764 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #21 | Collecting samples for evaluation
+2018-02-25 16:56:28.836232 UTC | -----------------------  -----------
+2018-02-25 16:56:28.836551 UTC | Epoch                     21
+2018-02-25 16:56:28.836658 UTC | AverageReturn             10
+2018-02-25 16:56:28.836741 UTC | StdReturn                  0
+2018-02-25 16:56:28.836817 UTC | MaxReturn                 10
+2018-02-25 16:56:28.836893 UTC | MinReturn                 10
+2018-02-25 16:56:28.836974 UTC | AverageEsReturn            0.37037
+2018-02-25 16:56:28.837054 UTC | StdEsReturn                9.99314
+2018-02-25 16:56:28.837174 UTC | MaxEsReturn               10
+2018-02-25 16:56:28.837253 UTC | MinEsReturn              -10
+2018-02-25 16:56:28.837328 UTC | AverageDiscountedReturn    9.5099
+2018-02-25 16:56:28.837430 UTC | AverageQLoss               0.102391
+2018-02-25 16:56:28.837507 UTC | AveragePolicySurr         -0.0916889
+2018-02-25 16:56:28.837592 UTC | AverageQ                  -0.0777307
+2018-02-25 16:56:28.837672 UTC | AverageAbsQ                0.387949
+2018-02-25 16:56:28.837751 UTC | AverageY                  -0.0748721
+2018-02-25 16:56:28.837828 UTC | AverageAbsY                0.463559
+2018-02-25 16:56:28.837906 UTC | AverageAbsQYDiff           0.174047
+2018-02-25 16:56:28.837982 UTC | AverageAction              0.888876
+2018-02-25 16:56:28.838064 UTC | PolicyRegParamNorm        27.0248
+2018-02-25 16:56:28.838142 UTC | QFunRegParamNorm          12.0287
+2018-02-25 16:56:28.838218 UTC | AverageForwardProgress     0
+2018-02-25 16:56:28.838296 UTC | MaxForwardProgress         0
+2018-02-25 16:56:28.838393 UTC | MinForwardProgress         0
+2018-02-25 16:56:28.838505 UTC | StdForwardProgress         0
+2018-02-25 16:56:28.838605 UTC | -----------------------  -----------
+2018-02-25 16:56:28.838955 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #22 | Training started
+2018-02-25 16:57:06.775458 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #22 | Training finished
+2018-02-25 16:57:06.775682 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #22 | Collecting samples for evaluation
+2018-02-25 16:57:09.846504 UTC | -----------------------  -----------
+2018-02-25 16:57:09.846802 UTC | Epoch                     22
+2018-02-25 16:57:09.846923 UTC | AverageReturn             10
+2018-02-25 16:57:09.847010 UTC | StdReturn                  0
+2018-02-25 16:57:09.847086 UTC | MaxReturn                 10
+2018-02-25 16:57:09.847158 UTC | MinReturn                 10
+2018-02-25 16:57:09.847236 UTC | AverageEsReturn            0.405405
+2018-02-25 16:57:09.847319 UTC | StdEsReturn                9.99178
+2018-02-25 16:57:09.847398 UTC | MaxEsReturn               10
+2018-02-25 16:57:09.847476 UTC | MinEsReturn              -10
+2018-02-25 16:57:09.847556 UTC | AverageDiscountedReturn    9.5099
+2018-02-25 16:57:09.847635 UTC | AverageQLoss               0.100835
+2018-02-25 16:57:09.847724 UTC | AveragePolicySurr         -0.234379
+2018-02-25 16:57:09.847815 UTC | AverageQ                   0.067602
+2018-02-25 16:57:09.847926 UTC | AverageAbsQ                0.431068
+2018-02-25 16:57:09.848023 UTC | AverageY                   0.0696951
+2018-02-25 16:57:09.848129 UTC | AverageAbsY                0.498777
+2018-02-25 16:57:09.848206 UTC | AverageAbsQYDiff           0.180076
+2018-02-25 16:57:09.848282 UTC | AverageAction              0.905176
+2018-02-25 16:57:09.848355 UTC | PolicyRegParamNorm        27.1865
+2018-02-25 16:57:09.848433 UTC | QFunRegParamNorm          12.2216
+2018-02-25 16:57:09.848507 UTC | AverageForwardProgress     0
+2018-02-25 16:57:09.848585 UTC | MaxForwardProgress         0
+2018-02-25 16:57:09.848674 UTC | MinForwardProgress         0
+2018-02-25 16:57:09.848767 UTC | StdForwardProgress         0
+2018-02-25 16:57:09.848842 UTC | -----------------------  -----------
+2018-02-25 16:57:09.849205 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #23 | Training started
+2018-02-25 16:57:51.047178 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #23 | Training finished
+2018-02-25 16:57:51.047400 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #23 | Collecting samples for evaluation
+2018-02-25 16:57:54.104002 UTC | -----------------------  ----------
+2018-02-25 16:57:54.104299 UTC | Epoch                     23
+2018-02-25 16:57:54.104407 UTC | AverageReturn             10
+2018-02-25 16:57:54.104489 UTC | StdReturn                  0
+2018-02-25 16:57:54.104572 UTC | MaxReturn                 10
+2018-02-25 16:57:54.105155 UTC | MinReturn                 10
+2018-02-25 16:57:54.105257 UTC | AverageEsReturn            1.88406
+2018-02-25 16:57:54.105343 UTC | StdEsReturn                9.82091
+2018-02-25 16:57:54.105427 UTC | MaxEsReturn               10
+2018-02-25 16:57:54.105503 UTC | MinEsReturn              -10
+2018-02-25 16:57:54.105585 UTC | AverageDiscountedReturn    9.5099
+2018-02-25 16:57:54.105676 UTC | AverageQLoss               0.100063
+2018-02-25 16:57:54.105769 UTC | AveragePolicySurr         -0.33989
+2018-02-25 16:57:54.105850 UTC | AverageQ                   0.167368
+2018-02-25 16:57:54.105965 UTC | AverageAbsQ                0.492251
+2018-02-25 16:57:54.106058 UTC | AverageY                   0.16874
+2018-02-25 16:57:54.106150 UTC | AverageAbsY                0.555755
+2018-02-25 16:57:54.106232 UTC | AverageAbsQYDiff           0.184145
+2018-02-25 16:57:54.106312 UTC | AverageAction              0.952972
+2018-02-25 16:57:54.106397 UTC | PolicyRegParamNorm        27.331
+2018-02-25 16:57:54.106482 UTC | QFunRegParamNorm          12.3625
+2018-02-25 16:57:54.106567 UTC | AverageForwardProgress     0
+2018-02-25 16:57:54.106664 UTC | MaxForwardProgress         0
+2018-02-25 16:57:54.106769 UTC | MinForwardProgress         0
+2018-02-25 16:57:54.106907 UTC | StdForwardProgress         0
+2018-02-25 16:57:54.107022 UTC | -----------------------  ----------
+2018-02-25 16:57:54.107385 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #24 | Training started
+2018-02-25 16:58:33.455204 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #24 | Training finished
+2018-02-25 16:58:33.455428 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #24 | Collecting samples for evaluation
+2018-02-25 16:58:36.604139 UTC | -----------------------  -----------
+2018-02-25 16:58:36.604429 UTC | Epoch                     24
+2018-02-25 16:58:36.604556 UTC | AverageReturn             10
+2018-02-25 16:58:36.604654 UTC | StdReturn                  0
+2018-02-25 16:58:36.604730 UTC | MaxReturn                 10
+2018-02-25 16:58:36.604806 UTC | MinReturn                 10
+2018-02-25 16:58:36.604907 UTC | AverageEsReturn            2.4
+2018-02-25 16:58:36.604989 UTC | StdEsReturn                9.70773
+2018-02-25 16:58:36.605065 UTC | MaxEsReturn               10
+2018-02-25 16:58:36.605178 UTC | MinEsReturn              -10
+2018-02-25 16:58:36.605254 UTC | AverageDiscountedReturn    9.5099
+2018-02-25 16:58:36.605328 UTC | AverageQLoss               0.0961226
+2018-02-25 16:58:36.605408 UTC | AveragePolicySurr         -0.426017
+2018-02-25 16:58:36.605483 UTC | AverageQ                   0.24036
+2018-02-25 16:58:36.605560 UTC | AverageAbsQ                0.564065
+2018-02-25 16:58:36.605638 UTC | AverageY                   0.240611
+2018-02-25 16:58:36.605715 UTC | AverageAbsY                0.626488
+2018-02-25 16:58:36.605792 UTC | AverageAbsQYDiff           0.185831
+2018-02-25 16:58:36.605889 UTC | AverageAction              0.909555
+2018-02-25 16:58:36.605977 UTC | PolicyRegParamNorm        27.4144
+2018-02-25 16:58:36.606056 UTC | QFunRegParamNorm          12.5395
+2018-02-25 16:58:36.606139 UTC | AverageForwardProgress     0
+2018-02-25 16:58:36.606223 UTC | MaxForwardProgress         0
+2018-02-25 16:58:36.606308 UTC | MinForwardProgress         0
+2018-02-25 16:58:36.606393 UTC | StdForwardProgress         0
+2018-02-25 16:58:36.606477 UTC | -----------------------  -----------
+2018-02-25 16:58:36.606795 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #25 | Training started
+2018-02-25 16:59:14.931135 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #25 | Training finished
+2018-02-25 16:59:14.931367 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #25 | Collecting samples for evaluation
+2018-02-25 16:59:18.130437 UTC | -----------------------  -----------
+2018-02-25 16:59:18.130728 UTC | Epoch                     25
+2018-02-25 16:59:18.130825 UTC | AverageReturn             10
+2018-02-25 16:59:18.130908 UTC | StdReturn                  0
+2018-02-25 16:59:18.131396 UTC | MaxReturn                 10
+2018-02-25 16:59:18.131576 UTC | MinReturn                 10
+2018-02-25 16:59:18.131663 UTC | AverageEsReturn            1.91781
+2018-02-25 16:59:18.131743 UTC | StdEsReturn                9.81438
+2018-02-25 16:59:18.131822 UTC | MaxEsReturn               10
+2018-02-25 16:59:18.131901 UTC | MinEsReturn              -10
+2018-02-25 16:59:18.131977 UTC | AverageDiscountedReturn    9.5099
+2018-02-25 16:59:18.132058 UTC | AverageQLoss               0.0928915
+2018-02-25 16:59:18.132146 UTC | AveragePolicySurr         -0.484129
+2018-02-25 16:59:18.132240 UTC | AverageQ                   0.286715
+2018-02-25 16:59:18.132323 UTC | AverageAbsQ                0.61414
+2018-02-25 16:59:18.132423 UTC | AverageY                   0.286508
+2018-02-25 16:59:18.132506 UTC | AverageAbsY                0.677435
+2018-02-25 16:59:18.132587 UTC | AverageAbsQYDiff           0.188772
+2018-02-25 16:59:18.132959 UTC | AverageAction              0.914452
+2018-02-25 16:59:18.133064 UTC | PolicyRegParamNorm        27.4872
+2018-02-25 16:59:18.133191 UTC | QFunRegParamNorm          12.74
+2018-02-25 16:59:18.133279 UTC | AverageForwardProgress     0
+2018-02-25 16:59:18.133557 UTC | MaxForwardProgress         0
+2018-02-25 16:59:18.133704 UTC | MinForwardProgress         0
+2018-02-25 16:59:18.133814 UTC | StdForwardProgress         0
+2018-02-25 16:59:18.134104 UTC | -----------------------  -----------
+2018-02-25 16:59:18.134496 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #26 | Training started
+2018-02-25 16:59:57.112670 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #26 | Training finished
+2018-02-25 16:59:57.112898 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #26 | Collecting samples for evaluation
+2018-02-25 17:00:00.225268 UTC | -----------------------  -----------
+2018-02-25 17:00:00.225554 UTC | Epoch                     26
+2018-02-25 17:00:00.225660 UTC | AverageReturn             10
+2018-02-25 17:00:00.225761 UTC | StdReturn                  0
+2018-02-25 17:00:00.225839 UTC | MaxReturn                 10
+2018-02-25 17:00:00.225940 UTC | MinReturn                 10
+2018-02-25 17:00:00.226021 UTC | AverageEsReturn            2.21477
+2018-02-25 17:00:00.226105 UTC | StdEsReturn                9.75166
+2018-02-25 17:00:00.226187 UTC | MaxEsReturn               10
+2018-02-25 17:00:00.226274 UTC | MinEsReturn              -10
+2018-02-25 17:00:00.226370 UTC | AverageDiscountedReturn    9.5099
+2018-02-25 17:00:00.226452 UTC | AverageQLoss               0.0905128
+2018-02-25 17:00:00.226534 UTC | AveragePolicySurr         -0.521506
+2018-02-25 17:00:00.226625 UTC | AverageQ                   0.315205
+2018-02-25 17:00:00.226703 UTC | AverageAbsQ                0.64919
+2018-02-25 17:00:00.226775 UTC | AverageY                   0.314938
+2018-02-25 17:00:00.226851 UTC | AverageAbsY                0.712766
+2018-02-25 17:00:00.226951 UTC | AverageAbsQYDiff           0.189268
+2018-02-25 17:00:00.227045 UTC | AverageAction              0.91471
+2018-02-25 17:00:00.227144 UTC | PolicyRegParamNorm        27.5128
+2018-02-25 17:00:00.227249 UTC | QFunRegParamNorm          12.9366
+2018-02-25 17:00:00.227340 UTC | AverageForwardProgress     0
+2018-02-25 17:00:00.227432 UTC | MaxForwardProgress         0
+2018-02-25 17:00:00.227521 UTC | MinForwardProgress         0
+2018-02-25 17:00:00.227617 UTC | StdForwardProgress         0
+2018-02-25 17:00:00.227696 UTC | -----------------------  -----------
+2018-02-25 17:00:00.228061 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #27 | Training started
+2018-02-25 17:00:39.130350 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #27 | Training finished
+2018-02-25 17:00:39.130574 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #27 | Collecting samples for evaluation
+2018-02-25 17:00:42.243467 UTC | -----------------------  -----------
+2018-02-25 17:00:42.243783 UTC | Epoch                     27
+2018-02-25 17:00:42.243916 UTC | AverageReturn             10
+2018-02-25 17:00:42.244011 UTC | StdReturn                  0
+2018-02-25 17:00:42.244087 UTC | MaxReturn                 10
+2018-02-25 17:00:42.244161 UTC | MinReturn                 10
+2018-02-25 17:00:42.244240 UTC | AverageEsReturn            1.69014
+2018-02-25 17:00:42.244317 UTC | StdEsReturn                9.85614
+2018-02-25 17:00:42.244392 UTC | MaxEsReturn               10
+2018-02-25 17:00:42.244469 UTC | MinEsReturn              -10
+2018-02-25 17:00:42.244542 UTC | AverageDiscountedReturn    9.5099
+2018-02-25 17:00:42.244620 UTC | AverageQLoss               0.0873006
+2018-02-25 17:00:42.244699 UTC | AveragePolicySurr         -0.535623
+2018-02-25 17:00:42.244777 UTC | AverageQ                   0.321267
+2018-02-25 17:00:42.244859 UTC | AverageAbsQ                0.663885
+2018-02-25 17:00:42.245029 UTC | AverageY                   0.320878
+2018-02-25 17:00:42.245137 UTC | AverageAbsY                0.727363
+2018-02-25 17:00:42.245222 UTC | AverageAbsQYDiff           0.185202
+2018-02-25 17:00:42.245303 UTC | AverageAction              0.946494
+2018-02-25 17:00:42.245382 UTC | PolicyRegParamNorm        27.5841
+2018-02-25 17:00:42.245462 UTC | QFunRegParamNorm          13.1349
+2018-02-25 17:00:42.245548 UTC | AverageForwardProgress     0
+2018-02-25 17:00:42.245656 UTC | MaxForwardProgress         0
+2018-02-25 17:00:42.245757 UTC | MinForwardProgress         0
+2018-02-25 17:00:42.245848 UTC | StdForwardProgress         0
+2018-02-25 17:00:42.245948 UTC | -----------------------  -----------
+2018-02-25 17:00:42.246308 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #28 | Training started
+2018-02-25 17:01:21.514158 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #28 | Training finished
+2018-02-25 17:01:21.515692 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #28 | Collecting samples for evaluation
+2018-02-25 17:01:24.676276 UTC | -----------------------  -----------
+2018-02-25 17:01:24.676581 UTC | Epoch                     28
+2018-02-25 17:01:24.676685 UTC | AverageReturn             10
+2018-02-25 17:01:24.676826 UTC | StdReturn                  0
+2018-02-25 17:01:24.676928 UTC | MaxReturn                 10
+2018-02-25 17:01:24.677012 UTC | MinReturn                 10
+2018-02-25 17:01:24.677120 UTC | AverageEsReturn           -0.814815
+2018-02-25 17:01:24.677933 UTC | StdEsReturn                9.96675
+2018-02-25 17:01:24.678042 UTC | MaxEsReturn               10
+2018-02-25 17:01:24.678581 UTC | MinEsReturn              -10
+2018-02-25 17:01:24.678705 UTC | AverageDiscountedReturn    9.5099
+2018-02-25 17:01:24.679267 UTC | AverageQLoss               0.0852472
+2018-02-25 17:01:24.679387 UTC | AveragePolicySurr         -0.528916
+2018-02-25 17:01:24.679946 UTC | AverageQ                   0.317529
+2018-02-25 17:01:24.680052 UTC | AverageAbsQ                0.663706
+2018-02-25 17:01:24.680537 UTC | AverageY                   0.317315
+2018-02-25 17:01:24.680891 UTC | AverageAbsY                0.730683
+2018-02-25 17:01:24.681010 UTC | AverageAbsQYDiff           0.181896
+2018-02-25 17:01:24.681601 UTC | AverageAction              0.853235
+2018-02-25 17:01:24.681716 UTC | PolicyRegParamNorm        27.6852
+2018-02-25 17:01:24.681808 UTC | QFunRegParamNorm          13.3526
+2018-02-25 17:01:24.682266 UTC | AverageForwardProgress     0
+2018-02-25 17:01:24.682627 UTC | MaxForwardProgress         0
+2018-02-25 17:01:24.682988 UTC | MinForwardProgress         0
+2018-02-25 17:01:24.683129 UTC | StdForwardProgress         0
+2018-02-25 17:01:24.683675 UTC | -----------------------  -----------
+2018-02-25 17:01:24.684273 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #29 | Training started
+2018-02-25 17:02:03.573702 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #29 | Training finished
+2018-02-25 17:02:03.573991 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #29 | Collecting samples for evaluation
+2018-02-25 17:02:06.706491 UTC | -----------------------  -----------
+2018-02-25 17:02:06.706785 UTC | Epoch                     29
+2018-02-25 17:02:06.706904 UTC | AverageReturn             10
+2018-02-25 17:02:06.707321 UTC | StdReturn                  0
+2018-02-25 17:02:06.707451 UTC | MaxReturn                 10
+2018-02-25 17:02:06.707536 UTC | MinReturn                 10
+2018-02-25 17:02:06.707616 UTC | AverageEsReturn            2.54658
+2018-02-25 17:02:06.707693 UTC | StdEsReturn                9.67031
+2018-02-25 17:02:06.707801 UTC | MaxEsReturn               10
+2018-02-25 17:02:06.707901 UTC | MinEsReturn              -10
+2018-02-25 17:02:06.707987 UTC | AverageDiscountedReturn    9.5099
+2018-02-25 17:02:06.708319 UTC | AverageQLoss               0.0832509
+2018-02-25 17:02:06.708619 UTC | AveragePolicySurr         -0.515956
+2018-02-25 17:02:06.708734 UTC | AverageQ                   0.308552
+2018-02-25 17:02:06.708835 UTC | AverageAbsQ                0.661381
+2018-02-25 17:02:06.709025 UTC | AverageY                   0.308221
+2018-02-25 17:02:06.709157 UTC | AverageAbsY                0.729245
+2018-02-25 17:02:06.709260 UTC | AverageAbsQYDiff           0.179331
+2018-02-25 17:02:06.709348 UTC | AverageAction              0.869977
+2018-02-25 17:02:06.709442 UTC | PolicyRegParamNorm        27.9644
+2018-02-25 17:02:06.709534 UTC | QFunRegParamNorm          13.5709
+2018-02-25 17:02:06.709624 UTC | AverageForwardProgress     0
+2018-02-25 17:02:06.709718 UTC | MaxForwardProgress         0
+2018-02-25 17:02:06.709804 UTC | MinForwardProgress         0
+2018-02-25 17:02:06.709917 UTC | StdForwardProgress         0
+2018-02-25 17:02:06.710011 UTC | -----------------------  -----------
+2018-02-25 17:02:06.710366 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #30 | Training started
+2018-02-25 17:02:45.716927 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #30 | Training finished
+2018-02-25 17:02:45.717142 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #30 | Collecting samples for evaluation
+2018-02-25 17:02:48.551009 UTC | -----------------------  -----------
+2018-02-25 17:02:48.551301 UTC | Epoch                     30
+2018-02-25 17:02:48.551414 UTC | AverageReturn             10
+2018-02-25 17:02:48.551497 UTC | StdReturn                  0
+2018-02-25 17:02:48.551589 UTC | MaxReturn                 10
+2018-02-25 17:02:48.551674 UTC | MinReturn                 10
+2018-02-25 17:02:48.551758 UTC | AverageEsReturn            1.37255
+2018-02-25 17:02:48.551832 UTC | StdEsReturn                9.90536
+2018-02-25 17:02:48.551933 UTC | MaxEsReturn               10
+2018-02-25 17:02:48.552014 UTC | MinEsReturn              -10
+2018-02-25 17:02:48.552096 UTC | AverageDiscountedReturn    9.5099
+2018-02-25 17:02:48.552177 UTC | AverageQLoss               0.0787848
+2018-02-25 17:02:48.552261 UTC | AveragePolicySurr         -0.500996
+2018-02-25 17:02:48.552346 UTC | AverageQ                   0.291539
+2018-02-25 17:02:48.552436 UTC | AverageAbsQ                0.657909
+2018-02-25 17:02:48.552548 UTC | AverageY                   0.291345
+2018-02-25 17:02:48.552665 UTC | AverageAbsY                0.727307
+2018-02-25 17:02:48.552775 UTC | AverageAbsQYDiff           0.173788
+2018-02-25 17:02:48.552875 UTC | AverageAction              0.836149
+2018-02-25 17:02:48.552958 UTC | PolicyRegParamNorm        28.3376
+2018-02-25 17:02:48.553034 UTC | QFunRegParamNorm          13.8221
+2018-02-25 17:02:48.553142 UTC | AverageForwardProgress     0
+2018-02-25 17:02:48.553222 UTC | MaxForwardProgress         0
+2018-02-25 17:02:48.553304 UTC | MinForwardProgress         0
+2018-02-25 17:02:48.553392 UTC | StdForwardProgress         0
+2018-02-25 17:02:48.553484 UTC | -----------------------  -----------
+2018-02-25 17:02:48.553913 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #31 | Training started
+2018-02-25 17:03:27.236347 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #31 | Training finished
+2018-02-25 17:03:27.236573 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #31 | Collecting samples for evaluation
+2018-02-25 17:03:30.331800 UTC | -----------------------  -----------
+2018-02-25 17:03:30.332101 UTC | Epoch                     31
+2018-02-25 17:03:30.332210 UTC | AverageReturn             10
+2018-02-25 17:03:30.332303 UTC | StdReturn                  0
+2018-02-25 17:03:30.332413 UTC | MaxReturn                 10
+2018-02-25 17:03:30.332493 UTC | MinReturn                 10
+2018-02-25 17:03:30.332574 UTC | AverageEsReturn            1.71975
+2018-02-25 17:03:30.332656 UTC | StdEsReturn                9.85101
+2018-02-25 17:03:30.332735 UTC | MaxEsReturn               10
+2018-02-25 17:03:30.332818 UTC | MinEsReturn              -10
+2018-02-25 17:03:30.333028 UTC | AverageDiscountedReturn    9.5099
+2018-02-25 17:03:30.333156 UTC | AverageQLoss               0.0800144
+2018-02-25 17:03:30.333265 UTC | AveragePolicySurr         -0.483978
+2018-02-25 17:03:30.333377 UTC | AverageQ                   0.2801
+2018-02-25 17:03:30.333477 UTC | AverageAbsQ                0.652654
+2018-02-25 17:03:30.333567 UTC | AverageY                   0.279352
+2018-02-25 17:03:30.333658 UTC | AverageAbsY                0.72484
+2018-02-25 17:03:30.333742 UTC | AverageAbsQYDiff           0.17572
+2018-02-25 17:03:30.333817 UTC | AverageAction              0.800232
+2018-02-25 17:03:30.333893 UTC | PolicyRegParamNorm        28.6941
+2018-02-25 17:03:30.333973 UTC | QFunRegParamNorm          14.0769
+2018-02-25 17:03:30.334061 UTC | AverageForwardProgress     0
+2018-02-25 17:03:30.334153 UTC | MaxForwardProgress         0
+2018-02-25 17:03:30.334249 UTC | MinForwardProgress         0
+2018-02-25 17:03:30.334361 UTC | StdForwardProgress         0
+2018-02-25 17:03:30.334460 UTC | -----------------------  -----------
+2018-02-25 17:03:30.334789 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #32 | Training started
+2018-02-25 17:04:09.255407 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #32 | Training finished
+2018-02-25 17:04:09.255639 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #32 | Collecting samples for evaluation
+2018-02-25 17:04:12.269585 UTC | -----------------------  -----------
+2018-02-25 17:04:12.269872 UTC | Epoch                     32
+2018-02-25 17:04:12.269978 UTC | AverageReturn             10
+2018-02-25 17:04:12.270057 UTC | StdReturn                  0
+2018-02-25 17:04:12.270144 UTC | MaxReturn                 10
+2018-02-25 17:04:12.270232 UTC | MinReturn                 10
+2018-02-25 17:04:12.270309 UTC | AverageEsReturn            2.96296
+2018-02-25 17:04:12.270415 UTC | StdEsReturn                9.55096
+2018-02-25 17:04:12.270496 UTC | MaxEsReturn               10
+2018-02-25 17:04:12.270568 UTC | MinEsReturn              -10
+2018-02-25 17:04:12.270642 UTC | AverageDiscountedReturn    9.5099
+2018-02-25 17:04:12.270717 UTC | AverageQLoss               0.0774318
+2018-02-25 17:04:12.270794 UTC | AveragePolicySurr         -0.475899
+2018-02-25 17:04:12.270870 UTC | AverageQ                   0.269326
+2018-02-25 17:04:12.270951 UTC | AverageAbsQ                0.648479
+2018-02-25 17:04:12.271033 UTC | AverageY                   0.268781
+2018-02-25 17:04:12.271111 UTC | AverageAbsY                0.721301
+2018-02-25 17:04:12.271190 UTC | AverageAbsQYDiff           0.171808
+2018-02-25 17:04:12.271268 UTC | AverageAction              0.812076
+2018-02-25 17:04:12.271371 UTC | PolicyRegParamNorm        29.01
+2018-02-25 17:04:12.271468 UTC | QFunRegParamNorm          14.3235
+2018-02-25 17:04:12.271559 UTC | AverageForwardProgress     0
+2018-02-25 17:04:12.271648 UTC | MaxForwardProgress         0
+2018-02-25 17:04:12.271735 UTC | MinForwardProgress         0
+2018-02-25 17:04:12.271815 UTC | StdForwardProgress         0
+2018-02-25 17:04:12.271892 UTC | -----------------------  -----------
+2018-02-25 17:04:12.272209 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #33 | Training started
+2018-02-25 17:04:51.014442 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #33 | Training finished
+2018-02-25 17:04:51.014674 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #33 | Collecting samples for evaluation
+2018-02-25 17:04:54.095554 UTC | -----------------------  ----------
+2018-02-25 17:04:54.095860 UTC | Epoch                     33
+2018-02-25 17:04:54.095979 UTC | AverageReturn             10
+2018-02-25 17:04:54.096092 UTC | StdReturn                  0
+2018-02-25 17:04:54.096168 UTC | MaxReturn                 10
+2018-02-25 17:04:54.096270 UTC | MinReturn                 10
+2018-02-25 17:04:54.096359 UTC | AverageEsReturn            2.79503
+2018-02-25 17:04:54.096442 UTC | StdEsReturn                9.60145
+2018-02-25 17:04:54.096522 UTC | MaxEsReturn               10
+2018-02-25 17:04:54.096601 UTC | MinEsReturn              -10
+2018-02-25 17:04:54.096684 UTC | AverageDiscountedReturn    9.5099
+2018-02-25 17:04:54.096766 UTC | AverageQLoss               0.080347
+2018-02-25 17:04:54.096889 UTC | AveragePolicySurr         -0.468706
+2018-02-25 17:04:54.096979 UTC | AverageQ                   0.26342
+2018-02-25 17:04:54.097116 UTC | AverageAbsQ                0.648252
+2018-02-25 17:04:54.097216 UTC | AverageY                   0.262698
+2018-02-25 17:04:54.097311 UTC | AverageAbsY                0.722941
+2018-02-25 17:04:54.097398 UTC | AverageAbsQYDiff           0.174659
+2018-02-25 17:04:54.097502 UTC | AverageAction              0.833778
+2018-02-25 17:04:54.097596 UTC | PolicyRegParamNorm        29.2879
+2018-02-25 17:04:54.097691 UTC | QFunRegParamNorm          14.5332
+2018-02-25 17:04:54.097777 UTC | AverageForwardProgress     0
+2018-02-25 17:04:54.097985 UTC | MaxForwardProgress         0
+2018-02-25 17:04:54.098093 UTC | MinForwardProgress         0
+2018-02-25 17:04:54.098173 UTC | StdForwardProgress         0
+2018-02-25 17:04:54.098248 UTC | -----------------------  ----------
+2018-02-25 17:04:54.098554 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #34 | Training started
+2018-02-25 17:05:33.234059 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #34 | Training finished
+2018-02-25 17:05:33.234284 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #34 | Collecting samples for evaluation
+2018-02-25 17:05:36.380824 UTC | -----------------------  -----------
+2018-02-25 17:05:36.381134 UTC | Epoch                     34
+2018-02-25 17:05:36.381246 UTC | AverageReturn             10
+2018-02-25 17:05:36.381352 UTC | StdReturn                  0
+2018-02-25 17:05:36.381437 UTC | MaxReturn                 10
+2018-02-25 17:05:36.381521 UTC | MinReturn                 10
+2018-02-25 17:05:36.381604 UTC | AverageEsReturn            2.69461
+2018-02-25 17:05:36.381690 UTC | StdEsReturn                9.63011
+2018-02-25 17:05:36.381769 UTC | MaxEsReturn               10
+2018-02-25 17:05:36.381847 UTC | MinEsReturn              -10
+2018-02-25 17:05:36.381925 UTC | AverageDiscountedReturn    9.5099
+2018-02-25 17:05:36.381996 UTC | AverageQLoss               0.0816698
+2018-02-25 17:05:36.382068 UTC | AveragePolicySurr         -0.467332
+2018-02-25 17:05:36.382141 UTC | AverageQ                   0.262784
+2018-02-25 17:05:36.382218 UTC | AverageAbsQ                0.659822
+2018-02-25 17:05:36.382295 UTC | AverageY                   0.26203
+2018-02-25 17:05:36.382405 UTC | AverageAbsY                0.736115
+2018-02-25 17:05:36.382489 UTC | AverageAbsQYDiff           0.174608
+2018-02-25 17:05:36.382567 UTC | AverageAction              0.798643
+2018-02-25 17:05:36.382645 UTC | PolicyRegParamNorm        29.5168
+2018-02-25 17:05:36.382734 UTC | QFunRegParamNorm          14.7162
+2018-02-25 17:05:36.382815 UTC | AverageForwardProgress     0
+2018-02-25 17:05:36.382895 UTC | MaxForwardProgress         0
+2018-02-25 17:05:36.382978 UTC | MinForwardProgress         0
+2018-02-25 17:05:36.383065 UTC | StdForwardProgress         0
+2018-02-25 17:05:36.383147 UTC | -----------------------  -----------
+2018-02-25 17:05:36.383488 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #35 | Training started
+2018-02-25 17:06:15.302176 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #35 | Training finished
+2018-02-25 17:06:15.302419 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #35 | Collecting samples for evaluation
+2018-02-25 17:06:18.417630 UTC | -----------------------  -----------
+2018-02-25 17:06:18.417927 UTC | Epoch                     35
+2018-02-25 17:06:18.418034 UTC | AverageReturn             10
+2018-02-25 17:06:18.418123 UTC | StdReturn                  0
+2018-02-25 17:06:18.418224 UTC | MaxReturn                 10
+2018-02-25 17:06:18.418323 UTC | MinReturn                 10
+2018-02-25 17:06:18.418438 UTC | AverageEsReturn            2.36364
+2018-02-25 17:06:18.418539 UTC | StdEsReturn                9.71665
+2018-02-25 17:06:18.418643 UTC | MaxEsReturn               10
+2018-02-25 17:06:18.418750 UTC | MinEsReturn              -10
+2018-02-25 17:06:18.418855 UTC | AverageDiscountedReturn    9.5099
+2018-02-25 17:06:18.418961 UTC | AverageQLoss               0.0830275
+2018-02-25 17:06:18.419049 UTC | AveragePolicySurr         -0.463687
+2018-02-25 17:06:18.419150 UTC | AverageQ                   0.262586
+2018-02-25 17:06:18.419250 UTC | AverageAbsQ                0.659644
+2018-02-25 17:06:18.419341 UTC | AverageY                   0.262718
+2018-02-25 17:06:18.419424 UTC | AverageAbsY                0.741718
+2018-02-25 17:06:18.419506 UTC | AverageAbsQYDiff           0.176472
+2018-02-25 17:06:18.419614 UTC | AverageAction              0.806385
+2018-02-25 17:06:18.419718 UTC | PolicyRegParamNorm        29.7411
+2018-02-25 17:06:18.419808 UTC | QFunRegParamNorm          14.9347
+2018-02-25 17:06:18.419924 UTC | AverageForwardProgress     0
+2018-02-25 17:06:18.420035 UTC | MaxForwardProgress         0
+2018-02-25 17:06:18.420138 UTC | MinForwardProgress         0
+2018-02-25 17:06:18.420281 UTC | StdForwardProgress         0
+2018-02-25 17:06:18.420397 UTC | -----------------------  -----------
+2018-02-25 17:06:18.420739 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #36 | Training started
+2018-02-25 17:06:57.353644 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #36 | Training finished
+2018-02-25 17:06:57.353878 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #36 | Collecting samples for evaluation
+2018-02-25 17:07:00.433649 UTC | -----------------------  ----------
+2018-02-25 17:07:00.433944 UTC | Epoch                     36
+2018-02-25 17:07:00.434049 UTC | AverageReturn             10
+2018-02-25 17:07:00.434140 UTC | StdReturn                  0
+2018-02-25 17:07:00.434218 UTC | MaxReturn                 10
+2018-02-25 17:07:00.434289 UTC | MinReturn                 10
+2018-02-25 17:07:00.434402 UTC | AverageEsReturn            3.58025
+2018-02-25 17:07:00.434490 UTC | StdEsReturn                9.33712
+2018-02-25 17:07:00.434570 UTC | MaxEsReturn               10
+2018-02-25 17:07:00.434649 UTC | MinEsReturn              -10
+2018-02-25 17:07:00.434720 UTC | AverageDiscountedReturn    9.5099
+2018-02-25 17:07:00.434793 UTC | AverageQLoss               0.085461
+2018-02-25 17:07:00.434872 UTC | AveragePolicySurr         -0.469914
+2018-02-25 17:07:00.434950 UTC | AverageQ                   0.27051
+2018-02-25 17:07:00.435024 UTC | AverageAbsQ                0.66343
+2018-02-25 17:07:00.435102 UTC | AverageY                   0.270191
+2018-02-25 17:07:00.435181 UTC | AverageAbsY                0.747628
+2018-02-25 17:07:00.435259 UTC | AverageAbsQYDiff           0.177706
+2018-02-25 17:07:00.435362 UTC | AverageAction              0.807148
+2018-02-25 17:07:00.435450 UTC | PolicyRegParamNorm        29.9442
+2018-02-25 17:07:00.435535 UTC | QFunRegParamNorm          15.1529
+2018-02-25 17:07:00.435614 UTC | AverageForwardProgress     0
+2018-02-25 17:07:00.435692 UTC | MaxForwardProgress         0
+2018-02-25 17:07:00.435770 UTC | MinForwardProgress         0
+2018-02-25 17:07:00.435848 UTC | StdForwardProgress         0
+2018-02-25 17:07:00.435927 UTC | -----------------------  ----------
+2018-02-25 17:07:00.436425 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #37 | Training started
+2018-02-25 17:07:39.298229 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #37 | Training finished
+2018-02-25 17:07:39.298471 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #37 | Collecting samples for evaluation
+2018-02-25 17:07:42.386799 UTC | -----------------------  -----------
+2018-02-25 17:07:42.387093 UTC | Epoch                     37
+2018-02-25 17:07:42.387199 UTC | AverageReturn             10
+2018-02-25 17:07:42.387720 UTC | StdReturn                  0
+2018-02-25 17:07:42.387876 UTC | MaxReturn                 10
+2018-02-25 17:07:42.387966 UTC | MinReturn                 10
+2018-02-25 17:07:42.388052 UTC | AverageEsReturn            4.09639
+2018-02-25 17:07:42.388143 UTC | StdEsReturn                9.12248
+2018-02-25 17:07:42.388265 UTC | MaxEsReturn               10
+2018-02-25 17:07:42.388364 UTC | MinEsReturn              -10
+2018-02-25 17:07:42.388452 UTC | AverageDiscountedReturn    9.5099
+2018-02-25 17:07:42.388536 UTC | AverageQLoss               0.0840753
+2018-02-25 17:07:42.388624 UTC | AveragePolicySurr         -0.472699
+2018-02-25 17:07:42.388712 UTC | AverageQ                   0.276071
+2018-02-25 17:07:42.388794 UTC | AverageAbsQ                0.673352
+2018-02-25 17:07:42.388885 UTC | AverageY                   0.276109
+2018-02-25 17:07:42.388964 UTC | AverageAbsY                0.755639
+2018-02-25 17:07:42.389037 UTC | AverageAbsQYDiff           0.177986
+2018-02-25 17:07:42.389141 UTC | AverageAction              0.812043
+2018-02-25 17:07:42.389217 UTC | PolicyRegParamNorm        30.1382
+2018-02-25 17:07:42.389291 UTC | QFunRegParamNorm          15.3206
+2018-02-25 17:07:42.389406 UTC | AverageForwardProgress     0
+2018-02-25 17:07:42.389499 UTC | MaxForwardProgress         0
+2018-02-25 17:07:42.389592 UTC | MinForwardProgress         0
+2018-02-25 17:07:42.389689 UTC | StdForwardProgress         0
+2018-02-25 17:07:42.389779 UTC | -----------------------  -----------
+2018-02-25 17:07:42.390091 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #38 | Training started
+2018-02-25 17:08:21.230224 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #38 | Training finished
+2018-02-25 17:08:21.230455 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #38 | Collecting samples for evaluation
+2018-02-25 17:08:24.282329 UTC | -----------------------  -----------
+2018-02-25 17:08:24.282616 UTC | Epoch                     38
+2018-02-25 17:08:24.282720 UTC | AverageReturn             10
+2018-02-25 17:08:24.282809 UTC | StdReturn                  0
+2018-02-25 17:08:24.282916 UTC | MaxReturn                 10
+2018-02-25 17:08:24.282991 UTC | MinReturn                 10
+2018-02-25 17:08:24.283075 UTC | AverageEsReturn            2.89157
+2018-02-25 17:08:24.283159 UTC | StdEsReturn                9.57282
+2018-02-25 17:08:24.283234 UTC | MaxEsReturn               10
+2018-02-25 17:08:24.283307 UTC | MinEsReturn              -10
+2018-02-25 17:08:24.283384 UTC | AverageDiscountedReturn    9.5099
+2018-02-25 17:08:24.283459 UTC | AverageQLoss               0.0912318
+2018-02-25 17:08:24.283578 UTC | AveragePolicySurr         -0.486845
+2018-02-25 17:08:24.283674 UTC | AverageQ                   0.284605
+2018-02-25 17:08:24.283760 UTC | AverageAbsQ                0.676997
+2018-02-25 17:08:24.283850 UTC | AverageY                   0.284706
+2018-02-25 17:08:24.283936 UTC | AverageAbsY                0.762498
+2018-02-25 17:08:24.284014 UTC | AverageAbsQYDiff           0.183873
+2018-02-25 17:08:24.284095 UTC | AverageAction              0.825442
+2018-02-25 17:08:24.284175 UTC | PolicyRegParamNorm        30.324
+2018-02-25 17:08:24.284260 UTC | QFunRegParamNorm          15.4747
+2018-02-25 17:08:24.284344 UTC | AverageForwardProgress     0
+2018-02-25 17:08:24.284430 UTC | MaxForwardProgress         0
+2018-02-25 17:08:24.284515 UTC | MinForwardProgress         0
+2018-02-25 17:08:24.284602 UTC | StdForwardProgress         0
+2018-02-25 17:08:24.284690 UTC | -----------------------  -----------
+2018-02-25 17:08:24.285004 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #39 | Training started
+2018-02-25 17:09:03.215160 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #39 | Training finished
+2018-02-25 17:09:03.215381 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #39 | Collecting samples for evaluation
+2018-02-25 17:09:06.364391 UTC | -----------------------  ----------
+2018-02-25 17:09:06.364683 UTC | Epoch                     39
+2018-02-25 17:09:06.364789 UTC | AverageReturn             10
+2018-02-25 17:09:06.364895 UTC | StdReturn                  0
+2018-02-25 17:09:06.364978 UTC | MaxReturn                 10
+2018-02-25 17:09:06.365052 UTC | MinReturn                 10
+2018-02-25 17:09:06.365172 UTC | AverageEsReturn            4.04762
+2018-02-25 17:09:06.365249 UTC | StdEsReturn                9.14422
+2018-02-25 17:09:06.365322 UTC | MaxEsReturn               10
+2018-02-25 17:09:06.365401 UTC | MinEsReturn              -10
+2018-02-25 17:09:06.365474 UTC | AverageDiscountedReturn    9.5099
+2018-02-25 17:09:06.365550 UTC | AverageQLoss               0.091904
+2018-02-25 17:09:06.365629 UTC | AveragePolicySurr         -0.510264
+2018-02-25 17:09:06.365706 UTC | AverageQ                   0.30521
+2018-02-25 17:09:06.365788 UTC | AverageAbsQ                0.681526
+2018-02-25 17:09:06.365891 UTC | AverageY                   0.305568
+2018-02-25 17:09:06.365974 UTC | AverageAbsY                0.768035
+2018-02-25 17:09:06.366052 UTC | AverageAbsQYDiff           0.183472
+2018-02-25 17:09:06.366133 UTC | AverageAction              0.819901
+2018-02-25 17:09:06.366213 UTC | PolicyRegParamNorm        30.4753
+2018-02-25 17:09:06.366291 UTC | QFunRegParamNorm          15.6257
+2018-02-25 17:09:06.366372 UTC | AverageForwardProgress     0
+2018-02-25 17:09:06.366458 UTC | MaxForwardProgress         0
+2018-02-25 17:09:06.366542 UTC | MinForwardProgress         0
+2018-02-25 17:09:06.366629 UTC | StdForwardProgress         0
+2018-02-25 17:09:06.366710 UTC | -----------------------  ----------
+2018-02-25 17:09:06.367087 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #40 | Training started
+2018-02-25 17:09:45.527195 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #40 | Training finished
+2018-02-25 17:09:45.527446 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #40 | Collecting samples for evaluation
+2018-02-25 17:09:48.607566 UTC | -----------------------  -----------
+2018-02-25 17:09:48.607881 UTC | Epoch                     40
+2018-02-25 17:09:48.607992 UTC | AverageReturn             10
+2018-02-25 17:09:48.608082 UTC | StdReturn                  0
+2018-02-25 17:09:48.608160 UTC | MaxReturn                 10
+2018-02-25 17:09:48.608234 UTC | MinReturn                 10
+2018-02-25 17:09:48.608311 UTC | AverageEsReturn            4.45783
+2018-02-25 17:09:48.608402 UTC | StdEsReturn                8.95141
+2018-02-25 17:09:48.608478 UTC | MaxEsReturn               10
+2018-02-25 17:09:48.608550 UTC | MinEsReturn              -10
+2018-02-25 17:09:48.608641 UTC | AverageDiscountedReturn    9.5099
+2018-02-25 17:09:48.608720 UTC | AverageQLoss               0.0940502
+2018-02-25 17:09:48.608795 UTC | AveragePolicySurr         -0.5291
+2018-02-25 17:09:48.608894 UTC | AverageQ                   0.321904
+2018-02-25 17:09:48.608983 UTC | AverageAbsQ                0.688057
+2018-02-25 17:09:48.609062 UTC | AverageY                   0.322286
+2018-02-25 17:09:48.609172 UTC | AverageAbsY                0.776477
+2018-02-25 17:09:48.609251 UTC | AverageAbsQYDiff           0.184855
+2018-02-25 17:09:48.609333 UTC | AverageAction              0.840258
+2018-02-25 17:09:48.609418 UTC | PolicyRegParamNorm        30.6543
+2018-02-25 17:09:48.609505 UTC | QFunRegParamNorm          15.7847
+2018-02-25 17:09:48.609597 UTC | AverageForwardProgress     0
+2018-02-25 17:09:48.609686 UTC | MaxForwardProgress         0
+2018-02-25 17:09:48.609778 UTC | MinForwardProgress         0
+2018-02-25 17:09:48.609885 UTC | StdForwardProgress         0
+2018-02-25 17:09:48.609995 UTC | -----------------------  -----------
+2018-02-25 17:09:48.610341 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #41 | Training started
+2018-02-25 17:10:27.603806 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #41 | Training finished
+2018-02-25 17:10:27.604063 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #41 | Collecting samples for evaluation
+2018-02-25 17:10:30.739813 UTC | -----------------------  ----------
+2018-02-25 17:10:30.740105 UTC | Epoch                     41
+2018-02-25 17:10:30.740210 UTC | AverageReturn             10
+2018-02-25 17:10:30.740638 UTC | StdReturn                  0
+2018-02-25 17:10:30.740769 UTC | MaxReturn                 10
+2018-02-25 17:10:30.740855 UTC | MinReturn                 10
+2018-02-25 17:10:30.740938 UTC | AverageEsReturn            3.85542
+2018-02-25 17:10:30.741011 UTC | StdEsReturn                9.2269
+2018-02-25 17:10:30.741118 UTC | MaxEsReturn               10
+2018-02-25 17:10:30.741211 UTC | MinEsReturn              -10
+2018-02-25 17:10:30.741293 UTC | AverageDiscountedReturn    9.5099
+2018-02-25 17:10:30.741885 UTC | AverageQLoss               0.092741
+2018-02-25 17:10:30.742218 UTC | AveragePolicySurr         -0.561135
+2018-02-25 17:10:30.742332 UTC | AverageQ                   0.345685
+2018-02-25 17:10:30.742437 UTC | AverageAbsQ                0.703756
+2018-02-25 17:10:30.742513 UTC | AverageY                   0.346081
+2018-02-25 17:10:30.742588 UTC | AverageAbsY                0.789212
+2018-02-25 17:10:30.743266 UTC | AverageAbsQYDiff           0.183243
+2018-02-25 17:10:30.743396 UTC | AverageAction              0.843225
+2018-02-25 17:10:30.743499 UTC | PolicyRegParamNorm        30.8142
+2018-02-25 17:10:30.743983 UTC | QFunRegParamNorm          15.949
+2018-02-25 17:10:30.744091 UTC | AverageForwardProgress     0
+2018-02-25 17:10:30.744579 UTC | MaxForwardProgress         0
+2018-02-25 17:10:30.744688 UTC | MinForwardProgress         0
+2018-02-25 17:10:30.745174 UTC | StdForwardProgress         0
+2018-02-25 17:10:30.745283 UTC | -----------------------  ----------
+2018-02-25 17:10:30.746232 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #42 | Training started
+2018-02-25 17:11:09.712809 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #42 | Training finished
+2018-02-25 17:11:09.713059 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #42 | Collecting samples for evaluation
+2018-02-25 17:11:12.847373 UTC | -----------------------  -----------
+2018-02-25 17:11:12.847666 UTC | Epoch                     42
+2018-02-25 17:11:12.847769 UTC | AverageReturn             10
+2018-02-25 17:11:12.847868 UTC | StdReturn                  0
+2018-02-25 17:11:12.847961 UTC | MaxReturn                 10
+2018-02-25 17:11:12.848036 UTC | MinReturn                 10
+2018-02-25 17:11:12.848114 UTC | AverageEsReturn            2.2619
+2018-02-25 17:11:12.848195 UTC | StdEsReturn                9.74083
+2018-02-25 17:11:12.848278 UTC | MaxEsReturn               10
+2018-02-25 17:11:12.848354 UTC | MinEsReturn              -10
+2018-02-25 17:11:12.848434 UTC | AverageDiscountedReturn    9.5099
+2018-02-25 17:11:12.848506 UTC | AverageQLoss               0.0917489
+2018-02-25 17:11:12.848580 UTC | AveragePolicySurr         -0.594336
+2018-02-25 17:11:12.848655 UTC | AverageQ                   0.379055
+2018-02-25 17:11:12.848733 UTC | AverageAbsQ                0.718788
+2018-02-25 17:11:12.848813 UTC | AverageY                   0.379478
+2018-02-25 17:11:12.848915 UTC | AverageAbsY                0.802843
+2018-02-25 17:11:12.848995 UTC | AverageAbsQYDiff           0.184535
+2018-02-25 17:11:12.849072 UTC | AverageAction              0.855177
+2018-02-25 17:11:12.849193 UTC | PolicyRegParamNorm        30.9588
+2018-02-25 17:11:12.849286 UTC | QFunRegParamNorm          16.1242
+2018-02-25 17:11:12.849380 UTC | AverageForwardProgress     0
+2018-02-25 17:11:12.849473 UTC | MaxForwardProgress         0
+2018-02-25 17:11:12.849556 UTC | MinForwardProgress         0
+2018-02-25 17:11:12.849635 UTC | StdForwardProgress         0
+2018-02-25 17:11:12.849712 UTC | -----------------------  -----------
+2018-02-25 17:11:12.850063 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #43 | Training started
+2018-02-25 17:11:51.956277 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #43 | Training finished
+2018-02-25 17:11:51.956509 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #43 | Collecting samples for evaluation
+2018-02-25 17:11:55.042758 UTC | -----------------------  -----------
+2018-02-25 17:11:55.043055 UTC | Epoch                     43
+2018-02-25 17:11:55.043160 UTC | AverageReturn             10
+2018-02-25 17:11:55.043247 UTC | StdReturn                  0
+2018-02-25 17:11:55.043326 UTC | MaxReturn                 10
+2018-02-25 17:11:55.043427 UTC | MinReturn                 10
+2018-02-25 17:11:55.043507 UTC | AverageEsReturn            3.82716
+2018-02-25 17:11:55.043588 UTC | StdEsReturn                9.23866
+2018-02-25 17:11:55.043662 UTC | MaxEsReturn               10
+2018-02-25 17:11:55.043738 UTC | MinEsReturn              -10
+2018-02-25 17:11:55.043814 UTC | AverageDiscountedReturn    9.5099
+2018-02-25 17:11:55.043891 UTC | AverageQLoss               0.0930148
+2018-02-25 17:11:55.043969 UTC | AveragePolicySurr         -0.609731
+2018-02-25 17:11:55.044042 UTC | AverageQ                   0.392587
+2018-02-25 17:11:55.044119 UTC | AverageAbsQ                0.735083
+2018-02-25 17:11:55.044200 UTC | AverageY                   0.393241
+2018-02-25 17:11:55.044280 UTC | AverageAbsY                0.818196
+2018-02-25 17:11:55.044374 UTC | AverageAbsQYDiff           0.184076
+2018-02-25 17:11:55.044462 UTC | AverageAction              0.822103
+2018-02-25 17:11:55.044539 UTC | PolicyRegParamNorm        31.0986
+2018-02-25 17:11:55.044620 UTC | QFunRegParamNorm          16.2559
+2018-02-25 17:11:55.044708 UTC | AverageForwardProgress     0
+2018-02-25 17:11:55.044793 UTC | MaxForwardProgress         0
+2018-02-25 17:11:55.044872 UTC | MinForwardProgress         0
+2018-02-25 17:11:55.044952 UTC | StdForwardProgress         0
+2018-02-25 17:11:55.045042 UTC | -----------------------  -----------
+2018-02-25 17:11:55.045430 UTC | [experiment_2018_02_25_16_48_09_0001] epoch #44 | Training started

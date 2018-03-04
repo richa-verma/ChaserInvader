@@ -1,0 +1,50 @@
+2018-03-01 13:08:54.267935 UTC | [experiment_2018_03_01_13_08_51_0001] Populating workers...
+2018-03-01 13:08:56.429026 UTC | [experiment_2018_03_01_13_08_51_0001] Populated
+2018-03-01 13:08:58.359176 UTC | [experiment_2018_03_01_13_08_51_0001] epoch #0 | Training started
+2018-03-01 13:08:58.594451 UTC | [experiment_2018_03_01_13_08_51_0001] epoch #0 | Training finished
+2018-03-01 13:08:58.594675 UTC | [experiment_2018_03_01_13_08_51_0001] epoch #1 | Training started
+2018-03-01 13:08:58.821325 UTC | [experiment_2018_03_01_13_08_51_0001] epoch #1 | Training finished
+2018-03-01 13:08:58.821540 UTC | [experiment_2018_03_01_13_08_51_0001] epoch #2 | Training started
+2018-03-01 13:08:59.039547 UTC | [experiment_2018_03_01_13_08_51_0001] epoch #2 | Training finished
+2018-03-01 13:08:59.039823 UTC | [experiment_2018_03_01_13_08_51_0001] epoch #3 | Training started
+2018-03-01 13:08:59.255240 UTC | [experiment_2018_03_01_13_08_51_0001] epoch #3 | Training finished
+2018-03-01 13:08:59.255443 UTC | [experiment_2018_03_01_13_08_51_0001] epoch #4 | Training started
+2018-03-01 13:08:59.487136 UTC | [experiment_2018_03_01_13_08_51_0001] epoch #4 | Training finished
+2018-03-01 13:08:59.487368 UTC | [experiment_2018_03_01_13_08_51_0001] epoch #5 | Training started
+2018-03-01 13:08:59.716096 UTC | [experiment_2018_03_01_13_08_51_0001] epoch #5 | Training finished
+2018-03-01 13:08:59.716307 UTC | [experiment_2018_03_01_13_08_51_0001] epoch #6 | Training started
+2018-03-01 13:08:59.938259 UTC | [experiment_2018_03_01_13_08_51_0001] epoch #6 | Training finished
+2018-03-01 13:08:59.938472 UTC | [experiment_2018_03_01_13_08_51_0001] epoch #7 | Training started
+2018-03-01 13:09:00.166654 UTC | [experiment_2018_03_01_13_08_51_0001] epoch #7 | Training finished
+2018-03-01 13:09:00.166889 UTC | [experiment_2018_03_01_13_08_51_0001] epoch #8 | Training started
+2018-03-01 13:09:00.390959 UTC | [experiment_2018_03_01_13_08_51_0001] epoch #8 | Training finished
+2018-03-01 13:09:00.391195 UTC | [experiment_2018_03_01_13_08_51_0001] epoch #9 | Training started
+2018-03-01 13:09:00.653127 UTC | [experiment_2018_03_01_13_08_51_0001] epoch #9 | Training finished
+2018-03-01 13:09:00.653320 UTC | [experiment_2018_03_01_13_08_51_0001] epoch #9 | Collecting samples for evaluation
+2018-03-01 13:09:02.839767 UTC | -----------------------  -----------
+2018-03-01 13:09:02.840068 UTC | Epoch                      9
+2018-03-01 13:09:02.840171 UTC | AverageReturn             10
+2018-03-01 13:09:02.840259 UTC | StdReturn                  0
+2018-03-01 13:09:02.840337 UTC | MaxReturn                 10
+2018-03-01 13:09:02.840412 UTC | MinReturn                 10
+2018-03-01 13:09:02.840490 UTC | AverageEsReturn            9.4617
+2018-03-01 13:09:02.840568 UTC | StdEsReturn                3.23671
+2018-03-01 13:09:02.840644 UTC | MaxEsReturn               10
+2018-03-01 13:09:02.840720 UTC | MinEsReturn              -10
+2018-03-01 13:09:02.840798 UTC | AverageDiscountedReturn    8.17907
+2018-03-01 13:09:02.840896 UTC | AverageQLoss               0.0572544
+2018-03-01 13:09:02.840984 UTC | AveragePolicySurr          0.0166108
+2018-03-01 13:09:02.841065 UTC | AverageQ                  -0.108103
+2018-03-01 13:09:02.841185 UTC | AverageAbsQ                0.108103
+2018-03-01 13:09:02.841263 UTC | AverageY                  -0.0556763
+2018-03-01 13:09:02.841340 UTC | AverageAbsY                0.149426
+2018-03-01 13:09:02.841418 UTC | AverageAbsQYDiff           0.0530818
+2018-03-01 13:09:02.841492 UTC | AverageAction              0.114351
+2018-03-01 13:09:02.841571 UTC | PolicyRegParamNorm        26.4462
+2018-03-01 13:09:02.841653 UTC | QFunRegParamNorm           8.01405
+2018-03-01 13:09:02.841737 UTC | AverageForwardProgress     0
+2018-03-01 13:09:02.841825 UTC | MaxForwardProgress         0
+2018-03-01 13:09:02.841934 UTC | MinForwardProgress         0
+2018-03-01 13:09:02.842016 UTC | StdForwardProgress         0
+2018-03-01 13:09:02.842095 UTC | -----------------------  -----------
+2018-03-01 13:09:02.842471 UTC | [experiment_2018_03_01_13_08_51_0001] epoch #10 | Training started
